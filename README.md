@@ -1,4 +1,4 @@
-WEDE5020 Part 1
+WEDE5020 POE ***UPDATED***
 Tyrese Ah-Dong ST10445009
 Project overview:
 Project Planning:
@@ -36,11 +36,17 @@ Timeline and milestones:
 Budget:
 An estimated budget of the website project would be R8000-R10,000, this all depends on the final design of the website as well as the complexity and additional features integrated into the website, all of this includes development as well as testing the website and launching it
 
+UPDATE LOG 2025/09/28:
+
+Additional updates- I've added a CSS file that's linked to all of the html pages. this removes any repeated inline styles and ensures that there's a consistent design system across the entire website.
+I've defined the CSS variables for the colors and typography,I've also applied a global font family which is Segoe UI, Arial and sans-serif as well as improved readability.
+I've also ensured that the layout structure remains consistent throughout all pages of the website. visual enhancements include hover effects to the navigation links and buttons,and in relation to navigation,each page still includes a shared navigation bar that links to the other pages.
+
 Referencing List:
 Fitted by Asia Instagram account.[online]. Available at: https://www.instagram.com/fit.tedbyasia/ [accessed 2025/08/17] 
 Termly.[online]. Available at: https://termly.io/resources/articles/legal-requirements-for-websites/ [accessed 2025/08/20]
 Render Forest.[online]. Available at: https://www.renderforest.com/blog/product-website-examples [accessed 2025/08/16]
 Nice Page.[online]. Available at: https://nicepage.com/sd/64211/contact-details-website-design [accessed 2025/08/16]
-
+MDN Web Docs.[online]. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics [accessed 2025/09/20] 
 
 
