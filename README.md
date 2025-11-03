@@ -36,33 +36,11 @@ Timeline and milestones:
 Budget:
 An estimated budget of the website project would be R8000-R10,000, this all depends on the final design of the website as well as the complexity and additional features integrated into the website, all of this includes development as well as testing the website and launching it
 
-UPDATE LOG 2025/09/28:
-
-Additional updates- I've added a CSS file that's linked to all of the html pages. this removes any repeated inline styles and ensures that there's a consistent design system across the entire website.
-I've defined the CSS variables for the colors and typography,I've also applied a global font family which is Segoe UI, Arial and sans-serif as well as improved readability.
-I've also ensured that the layout structure remains consistent throughout all pages of the website. visual enhancements include hover effects to the navigation links and buttons,and in relation to navigation,each page still includes a shared navigation bar that links to the other pages.
-
-FINAL UPDATE:
-Interactive map:
-An interactive map has been integrated using the Leaflet.js library and OpenStreetMap tiles.
-The map is centered on Centurion, Gauteng, South Africa.
-Users can view multiple business locations with clickable markers and pop-up details.
-“Locate Me” functionality allows users to find their current position (using browser geolocation).
-A “Show All Locations” button automatically fits the view to display all markers on the map.
-Fully responsive and works seamlessly across desktop and mobile browsers.
-Gallery Lightbox:
-A responsive image gallery with lightbox functionality was added to showcase products, events, or portfolio images.
-Clicking any image opens it in a fullscreen lightbox view.
-Users can navigate through images using “Next” and “Previous” controls or close the view easily.
-Implemented using lightweight HTML, CSS, and JavaScript (no external dependencies).
-Optimized for responsiveness and modern browser support.
-
-
 Referencing List:
 Fitted by Asia Instagram account.[online]. Available at: https://www.instagram.com/fit.tedbyasia/ [accessed 2025/08/17] 
 Termly.[online]. Available at: https://termly.io/resources/articles/legal-requirements-for-websites/ [accessed 2025/08/20]
 Render Forest.[online]. Available at: https://www.renderforest.com/blog/product-website-examples [accessed 2025/08/16]
 Nice Page.[online]. Available at: https://nicepage.com/sd/64211/contact-details-website-design [accessed 2025/08/16]
-MDN Web Docs.[online]. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics [accessed 2025/09/20]
+
 
 
