@@ -1,0 +1,68 @@
+/* Basic gallery grid layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Lightbox overlay */
+#lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  text-align: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Navigation and close buttons */
+#close, #prev, #next {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  user-select: none;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+
+#close {
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+}
+
+#prev { left: 5%; transform: translateY(-50%); }
+#next { right: 5%; transform: translateY(-50%); }
+
+#prev:hover, #next:hover, #close:hover {
+  color: #007BFF;
+}

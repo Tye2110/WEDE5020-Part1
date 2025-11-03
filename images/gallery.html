@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header>
+    <h1>Our Gallery</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="products.html">Products</a> |
+      <a href="gallery.html">Gallery</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Gallery Lightbox</h2>
+    <p>Click any image to view it in fullscreen mode.</p>
+
+    <div class="gallery">
+      <img src="c:\Users\user\Pictures\cap 1.jpeg" alt="cap image 1">
+      <img src="c:\Users\user\Pictures\cap 2.jpeg" alt="cap image 2">
+      <img src="c:\Users\user\Pictures\cap 3.jpeg" alt="cap image 3">
+      <img src="c:\Users\user\Pictures\cap 4.jpeg" alt="cap image 4">
+      <img src="c:\Users\user\Pictures\cap 5.jpeg" alt="cap image 5">
+      <img src="c:\Users\user\Pictures\cap 6.jpeg" alt="cap image 6">
+    </div>
+  </main>
+
+  <!-- Lightbox overlay -->
+  <div id="lightbox">
+    <span id="close">&times;</span>
+    <img id="lightbox-img" src="" alt="Expanded view">
+    <span id="prev">&#10094;</span>
+    <span id="next">&#10095;</span>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
