@@ -36,6 +36,21 @@ Timeline and milestones:
 Budget:
 An estimated budget of the website project would be R8000-R10,000, this all depends on the final design of the website as well as the complexity and additional features integrated into the website, all of this includes development as well as testing the website and launching it
 
+FINAL UPDATE:
+Interactive Map:
+An interactive map has been integrated using the Leaflet.js library and OpenStreetMap tiles.
+The map is centered on Centurion, Gauteng, South Africa.
+Users can view multiple business locations with clickable markers and pop-up details.
+“Locate Me” functionality allows users to find their current position (using browser geolocation).
+A “Show All Locations” button automatically fits the view to display all markers on the map.
+Fully responsive and works seamlessly across desktop and mobile browsers.
+Gallery Lightbox:
+A responsive image gallery with lightbox functionality was added to showcase products, events, or portfolio images.
+Clicking any image opens it in a fullscreen lightbox view.
+Users can navigate through images using “Next” and “Previous” controls or close the view easily.
+Implemented using lightweight HTML, CSS, and JavaScript (no external dependencies).
+Optimized for responsiveness and modern browser support
+
 Referencing List:
 Fitted by Asia Instagram account.[online]. Available at: https://www.instagram.com/fit.tedbyasia/ [accessed 2025/08/17] 
 Termly.[online]. Available at: https://termly.io/resources/articles/legal-requirements-for-websites/ [accessed 2025/08/20]
